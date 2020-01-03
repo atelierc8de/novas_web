@@ -1,0 +1,13 @@
+.content {
+    grid-area: main;
+  }
+  .sidebar {
+    grid-area: sd;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+      ". sd . . main .";
+  }
+  
