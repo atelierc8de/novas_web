@@ -11,6 +11,21 @@ import Home10 from '../images/home10.png';
 import Home11 from '../images/home11.png';
 import Home12 from '../images/home12.png';
 import Home13 from '../images/home13.png';
+import Bnb from '../images/bnb.png';
+import Ebay from '../images/ebay.png';
+import Stripe from '../images/stripe.png';
+import Capital from '../images/capital.png';
+import Imb from '../images/ibm.png';
+import Prudential from '../images/prudential.png';
+import Zappos from '../images/zappos.png';
+import Sales from '../images/sales.png';
+import Kayak from '../images/kayak.png';
+import Bass from '../images/bass.png';
+import Amazon from '../images/amazon.png';
+
+import LogoFooter from '../icons/logofooter.svg';
+import FaceBook from '../icons/facebook.svg';
+
 
 
 //Gioi thieu, San pham & Dich vu (width: 548, height: 444)
@@ -65,4 +80,88 @@ const ImageSiderBar12 = ({ style={} }) => {
     return <img src={Home13} alt="imagesss" style={{width: 353 , height: 240}} />
 }
 
-export {ImageSiderBar1, ImageSiderBar2, ImageSiderBar3, ImageSiderBar4, ImageSiderBar5, ImageSiderBar6, ImageSiderBar7, ImageSiderBar8, ImageSiderBar9, ImageSiderBar10, ImageSiderBar11, ImageSiderBar12}
+// logo 
+
+const LogoBnb = ({ style={} }) => {
+    return <img src={Bnb} alt="bnb" style={{width: 103, height: 32}} />
+}
+
+const LogoEbay = ({ style={} }) => {
+    return <img src={Ebay} alt="ebay" style={{width: 76, height: 30}} />
+}
+
+const LogoStripe = ({ style={} }) => {
+    return <img src={Stripe} alt="stripe" style={{width: 72, height: 30}} />
+}
+
+const LogoCapital = ({ style={} }) => {
+    return <img src={Capital} alt="capital" style={{width: 104, height: 37}} />
+}
+
+const LogoImb = ({ style={} }) => {
+    return <img src={Imb} alt="ibm" style={{width: 69, height: 28}} />
+}
+
+const LogoPrudential = ({ style={} }) => {
+    return <img src={Prudential} alt="prudential" style={{width: 144, height: 31}} />
+}
+
+const LogoZappos = ({ style={} }) => {
+    return <img src={Zappos} alt="zappos" style={{width: 84, height: 30}} />
+}
+
+const LogoSales = ({ style={} }) => {
+    return <img src={Sales} alt="sales" style={{width: 71, height: 50}} />
+}
+
+const LogoKayak = ({ style={} }) => {
+    return <img src={Kayak} alt="kayak" style={{width: 156, height: 30}} />
+}
+
+const LogoBass = ({ style={} }) => {
+    return <img src={Bass} alt="bass" style={{width: 50, height: 60}} />
+}
+
+const LogoAmazon = ({ style={} }) => {
+    return <img src={Amazon} alt="amazon" style={{width: 94, height: 28}} />
+}
+
+// logo footer
+const LogoFooterNovas = ({ style={} }) => {
+    return <a href="#" style={{}}>
+            <img src={LogoFooter} alt="logofooter" style={{width: 131, height: 52}} />
+        </a>
+}
+
+const LogoFaceBook = ({ style={} }) => {
+    return <a href="#" style={{}}>
+            <img src={FaceBook} alt="facebook" style={{width: 8, height: 16}} />
+        </a>
+}
+
+export {ImageSiderBar1, 
+    ImageSiderBar2, 
+    ImageSiderBar3, 
+    ImageSiderBar4, 
+    ImageSiderBar5, 
+    ImageSiderBar6, 
+    ImageSiderBar7, 
+    ImageSiderBar8, 
+    ImageSiderBar9, 
+    ImageSiderBar10, 
+    ImageSiderBar11, 
+    ImageSiderBar12, 
+    LogoBnb,
+    LogoEbay,
+    LogoStripe,
+    LogoCapital,
+    LogoImb,
+    LogoPrudential,
+    LogoZappos,
+    LogoSales,
+    LogoKayak,
+    LogoBass,
+    LogoAmazon,
+    LogoFooterNovas,
+    LogoFaceBook
+}

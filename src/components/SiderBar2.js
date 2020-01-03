@@ -31,7 +31,7 @@ export default class SiderBar2 extends Component {
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Dự án nổi bật</b></p>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', width: '94%' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
                         <div style={{display: 'flex', flexDirection: 'column'}}>
                             <ImageSiderBar3 style={{}} />
                             <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 353, lineHeight: 1.3, paddingTop: 12, height: 40 }}>Nhà máy xử lý nước và nước thải Đà Nẵng Beach Resort, Veolia Việt Nam</span>

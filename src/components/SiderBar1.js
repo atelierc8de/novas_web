@@ -6,8 +6,8 @@ import Arrowxemthem from '../icons/Arrowxemthem.svg';
 export default class SiderBar1 extends Component {
     render() {
         return (
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', width: '84%' }}>
 
                     <span>
                         <ImageSiderBar1 style={{}} />
@@ -26,7 +26,7 @@ export default class SiderBar1 extends Component {
                     </div>
 
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-evenly', paddingTop: 80 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 80, width: '84%' }}>
 
                     <div style={{ width: 535, display: 'flex', flexDirection: 'column', height: 444, alignItems: 'flex-start', justifyContent: 'center' }}>
                         <p style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></p>

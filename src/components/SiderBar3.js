@@ -11,7 +11,7 @@ export default class SiderBar3 extends Component {
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Giải pháp từ Novas</b></p>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', width: '94%' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
                         <div style={{display: 'flex', flexDirection: 'column'}}>
                             <ImageSiderBar6 style={{}} />
                             <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>Giải pháp xử lý nước công nghiệp của hãng Rockwell Automation</span>
