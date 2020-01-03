@@ -20,7 +20,7 @@ export default class SiderBar1 extends Component {
                             <span>Các công việc là đào tạo và cung cấp các mô hình dạy học cho các trường đại học, cao đẳng và các doanh nghiệp như: Đại học Bách khoa Đà Nẵng, Cao đẳng Công nghệ, Công ty Xi măng Hải Vân, Công ty Dệt Hòa Thọ…</span>
                             <span>Với đội ngũ kỹ thuật năng động, sáng tạo, chúng tôi mong muốn được hợp tác với quý khách và cam kết hai bên cùng có lợi và phát triển…</span>
                         </div>
-                        <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} >XEM THÊM
+                        <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM THÊM</b>
                             <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
                         </a>
                     </div>
@@ -56,7 +56,7 @@ export default class SiderBar1 extends Component {
                                 <span style={{ paddingLeft: 17}}>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                             </span>
                         </div>
-                        <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} >XEM TẤT CẢ
+                        <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM TẤT CẢ</b>
                             <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
                         </a>
                     </div>
