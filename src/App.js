@@ -58,7 +58,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-const styles = {
-  button: {fontSize: 13, fontFamily: 'Roboto', color: '#FFFFFF'}
-}
