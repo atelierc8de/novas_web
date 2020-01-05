@@ -1,10 +1,35 @@
 import React, {Component} from 'react';
-import {ImageSiderBar6, ImageSiderBar7, ImageSiderBar8, ImageSiderBar9} from '../components/ImageSiderBar.js';
-import Arrowxemthem from '../icons/Arrowxemthem.svg';
+import About from '../components/About.js';
 
+const data = [
+    {
+        title: 'Giải pháp xử lý nước công nghiệp của hãng Rockwell Automation',
+        image: require('../images/home7.png')
+    },
+    {
+        title: 'Giải pháp điều khiển tự động cho nhà máy xử lý vàng',
+        image: require('../images/home8.png')
+    },
+    {
+        title: 'Giải pháp tối ưu hóa dành cho ngành sản xuất',
+        image: require('../images/home9.png')
+    },
+    {
+        title: 'Giải pháp tiết kiệm năng lượng sử dụng biến tần',
+        image: require('../images/home10.png')
+    },
+]
 
 export default class SiderBar3 extends Component {
+
+    state = {
+        data,
+    }
+
     render(){
+
+        const {data} = this.state;
+
         return(
             <div style={{background: '#F4F7F9', paddingBottom: 60}}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
@@ -12,42 +37,15 @@ export default class SiderBar3 extends Component {
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
-                        <div style={{display: 'flex', flexDirection: 'column'}}>
-                            <ImageSiderBar6 style={{}} />
-                            <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>Giải pháp xử lý nước công nghiệp của hãng Rockwell Automation</span>
-                            <span style={{ display: 'flex', paddingTop: 10 }}>
-                                <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 12, color: '#C81211' }} ><b>XEM THÊM</b>
-                                    <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
-                                </a>
-                            </span>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column'}}>
-                            <ImageSiderBar7 style={{}} />
-                            <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>Giải pháp điều khiển tự động cho nhà máy xử lý vàng</span>
-                            <span style={{ display: 'flex', paddingTop: 10 }}>
-                                <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 12, color: '#C81211' }} ><b>XEM THÊM</b>
-                                    <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
-                                </a>
-                            </span>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column'}}>
-                            <ImageSiderBar8 style={{}} />
-                            <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>Giải pháp tối ưu hóa dành cho ngành sản xuất</span>
-                            <span style={{ display: 'flex', paddingTop: 10 }}>
-                                <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 12, color: '#C81211' }} ><b>XEM THÊM</b>
-                                    <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
-                                </a>
-                            </span>
-                        </div>
-                        <div style={{display: 'flex', flexDirection: 'column'}}>
-                            <ImageSiderBar9 style={{}} />
-                            <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>Giải pháp tiết kiệm năng lượng sử dụng biến tần</span>
-                            <span style={{ display: 'flex', paddingTop: 10 }}>
-                                <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 12, color: '#C81211' }} ><b>XEM THÊM</b>
-                                    <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
-                                </a>
-                            </span>
-                        </div>
+                        {data.map((item) => 
+                            <div style={{display: 'flex', flexDirection: 'column'}}>
+                                <img src={item.image} style={{width: 255 , height: 170}} alt="imagesss" />
+                                <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>{item.title}</span>
+                                <span style={{ display: 'flex', paddingTop: 10 }}>
+                                    <About style={{}} />
+                                </span>
+                            </div>
+                        )}
                     </div>
 
                 </div>
