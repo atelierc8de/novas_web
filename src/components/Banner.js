@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Slider from 'react-animated-slider';
 import '../styles/horizontal.css';
 import '../styles/style.css';
-// import '../styles/slider-animations.css';
 
 const data = [
     {
@@ -31,15 +30,6 @@ export default class Banner extends Component {
         const {data} = this.state
 
         return (
-            // <div style={{ backgroundImage: `url(${Home1})`, width: '100%', height: 550, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', justifyContent: 'space-between', flex: 1, display: 'flex', alignItems: 'center', flexDirection: 'row', textAlign: 'center' }}>
-            //     <a href="http://localhost:3000/" ><img src={PrevBanner} alt="prevbanner" style={{width:22, height: 36, paddingLeft: 60}} /></a>
-
-            //     <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    
-            //     </div>
-
-            //     <a href="http://localhost:3000/" ><img src={NextBanner} alt="nextbanner" style={{width:22, height: 36, paddingRight: 60}} /></a>
-            // </div>
             <Slider className="slider-wrapper" style={{}}>
             {data.slice(0, 3).map((item, index) => (
               <div

@@ -231,6 +231,15 @@ button:hover {
   display: block;
 } */
 
+.afterMenu {
+  text-decoration: 'none'; 
+  color: #4A4A4A;
+}
+
+.afterMenu:hover {
+  color: red;
+}
+
 @media (max-height: 500px) {
   .slider-wrapper,
   .slide {
