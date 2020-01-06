@@ -128,13 +128,13 @@ const LogoAmazon = ({ style={} }) => {
 
 // logo footer
 const LogoFooterNovas = ({ style={} }) => {
-    return <a href="#" style={{}}>
+    return <a href="http://localhost:3000/" style={{}}>
             <img src={LogoFooter} alt="logofooter" style={{width: 131, height: 52}} />
         </a>
 }
 
 const LogoFaceBook = ({ style={} }) => {
-    return <a href="#" style={{}}>
+    return <a href="http://localhost:3000/" style={{}}>
             <img src={FaceBook} alt="facebook" style={{width: 8, height: 16}} />
         </a>
 }

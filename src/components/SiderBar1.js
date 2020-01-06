@@ -57,7 +57,7 @@ export default class SiderBar1 extends Component {
                                 <span style={{ paddingLeft: 17}}>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                             </span>
                         </div>
-                        <a href="#" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM TẤT CẢ</b>
+                        <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM TẤT CẢ</b>
                             <img src={Arrowxemthem} alt="arrowxemthem" style={{width: 5.6, height: 9, paddingLeft: 5}} />
                         </a>
                     </div>

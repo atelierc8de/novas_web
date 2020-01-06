@@ -37,8 +37,8 @@ export default class SiderBar3 extends Component {
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
-                        {data.map((item) => 
-                            <div style={{display: 'flex', flexDirection: 'column'}}>
+                        {data.map((item, index) => 
+                            <div style={{display: 'flex', flexDirection: 'column'}} key={index} >
                                 <img src={item.image} style={{width: 255 , height: 170}} alt="imagesss" />
                                 <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>{item.title}</span>
                                 <span style={{ display: 'flex', paddingTop: 10 }}>

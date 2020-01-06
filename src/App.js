@@ -16,8 +16,8 @@ class App extends React.Component {
 
     return (
       <div style={{}}>
-        <header style={{ display: 'flex', height: 80, justifyContent: 'center' }}>
-          <div style={{width: '84%', display: 'flex'}}>
+        <header style={{ display: 'flex', height: 80, justifyContent: 'center', alignItems: 'center' }}>
+          <div style={{width: '84%', display: 'flex', position: 'fixed', height: 80}}>
             <div style={{ flex: 1, alignItems: 'center', display: 'flex' }}>
               <HeaderLogo style={{}} />
             </div>
@@ -30,7 +30,7 @@ class App extends React.Component {
 
         <Banner style={{}} />
 
-        <body style={{ paddingTop: 80 }}>
+        <div style={{ paddingTop: 80 }}>
           <SiderBar1 style={{}} />
           
           {/* gradient */}
@@ -44,8 +44,7 @@ class App extends React.Component {
           <SiderBar4 style={{}} />
         
           <Partner style={{}} />
-
-        </body>
+        </div>
 
         <footer style={{height: 74, background: '#911212', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           
