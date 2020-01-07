@@ -99,7 +99,6 @@ button:hover {
 }
 
 .slide::before {
-  content: "";
   display: block;
   position: absolute;
   width: 100%;

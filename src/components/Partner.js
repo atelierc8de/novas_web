@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { LogoBnb, LogoEbay, LogoStripe, LogoCapital, LogoImb, LogoPrudential, LogoZappos, LogoSales, LogoAmazon } from '../components/ImageSiderBar.js';
-import '../styles/SiderBar.css';
+import '../styles/siderbar.css';
 import '../styles/style.css';
 import {SeeEverything} from '../components/About.js';
 
