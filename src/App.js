@@ -4,7 +4,7 @@ import HeaderLogo from '../src/components/HeaderLogo.js';
 import SiderBar1 from '../src/components/SiderBar1.js';
 import Banner from '../src/components/Banner.js';
 import SiderBar2 from '../src/components/SiderBar2.js';
-import '../src/styles/SiderBar.css';
+import '../src/styles/siderbar.css';
 import SiderBar3 from '../src/components/SiderBar3.js';
 import SiderBar4 from '../src/components/SiderBar4.js';
 import Partner from '../src/components/Partner.js';
@@ -35,7 +35,7 @@ class App extends React.Component {
           
           {/* gradient */}
 
-          <div style={{ height: 1, width: '100%', marginTop: 80 }} className="gradient" />
+          <div style={{ }} className="gradient" />
 
           <SiderBar2 style={{}} />
 

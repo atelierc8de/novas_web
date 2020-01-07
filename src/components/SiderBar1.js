@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { ImageSiderBar1, ImageSiderBar2 } from '../components/ImageSiderBar.js';
 import Checknau from '../icons/checknau.svg';
 import {SeeMore, SeeEverything} from '../components/About.js';
+import '../styles/siderbar.css';
 
 export default class SiderBar1 extends Component {
     render() {
