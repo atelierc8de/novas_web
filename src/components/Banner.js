@@ -35,7 +35,7 @@ export default class Banner extends Component {
               <div
                 key={index}
                 className="slider-content"
-                style={{ background: `url('${item.image}') no-repeat center center` }}
+                style={{ background: `url('${item.image}') no-repeat center center`, backgroundSize: 'cover' }}
               >
                 <div className="inner" style={{display: 'flex', flexDirection: 'column'}}>
                     <span style={{ fontFamily: 'Roboto', fontSize: 44, color: '#FFFFFF', textShadow: '0px 2px 2px #000000', lineHeight: 1.5 }}><b>{item.title}</b></span>

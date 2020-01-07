@@ -1,5 +1,22 @@
 .siderbar1 {
+  width: 548px;
+  height: 444px;
+}
 
+.siderbar1-image1 {
+  background-image: url("../images/home2.png");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.siderbar1-image2 {
+  background-image: url("../images/home3.png");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 

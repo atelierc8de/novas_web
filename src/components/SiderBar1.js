@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { ImageSiderBar1, ImageSiderBar2 } from '../components/ImageSiderBar.js';
 import Checknau from '../icons/checknau.svg';
 import {SeeMore, SeeEverything} from '../components/About.js';
 import '../styles/siderbar.css';
@@ -9,10 +8,9 @@ export default class SiderBar1 extends Component {
         return (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', width: '84%' }}>
-
-                    <span>
-                        <ImageSiderBar1 style={{}} />
-                    </span>
+                    <div className="siderbar1">
+                        <div className="siderbar1-image1" />
+                    </div>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
                         <div style={{ width: 535, display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', height: 400, alignItems: 'flex-start' }}>
                             <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Giới thiệu</b></span>
@@ -29,8 +27,8 @@ export default class SiderBar1 extends Component {
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 80, width: '84%' }}>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                        <div style={{ width: 535, display: 'flex', flexDirection: 'column', height: 444, alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
-                            <p style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></p>
+                        <div style={{ width: 535, display: 'flex', flexDirection: 'column', height: 400, alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
+                            <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></span>
                             <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 444, justifyContent: 'space-evenly', lineHeight: 1.8 }}>
                                 <span style={{ display: 'flex' }}>
                                     <div>
@@ -57,12 +55,14 @@ export default class SiderBar1 extends Component {
                                     <span style={{ paddingLeft: 17 }}>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                                 </span>
                             </div>
-                            <SeeEverything style={{}} />
+                            <span>
+                                <SeeEverything style={{}} />
+                            </span>
                         </div>
                     </div>
-                    <span>
-                        <ImageSiderBar2 style={{}} />
-                    </span>
+                    <div className="siderbar1">
+                        <div className="siderbar1-image2" />
+                    </div>
 
                 </div>
             </div>
