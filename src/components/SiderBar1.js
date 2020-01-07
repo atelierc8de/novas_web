@@ -7,12 +7,12 @@ export default class SiderBar1 extends Component {
     render() {
         return (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', width: '84%' }}>
+                <div className="siderbar1-wrapper">
                     <div className="siderbar1">
                         <div className="siderbar1-image1" />
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                        <div style={{ width: 535, display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', height: 400, alignItems: 'flex-start' }}>
+                        <div className="siderbar1-content">
                             <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Giới thiệu</b></span>
                             <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 243, justifyContent: 'space-between', lineHeight: 1.8 }}>
                                 <span>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
@@ -25,9 +25,9 @@ export default class SiderBar1 extends Component {
                         </div>
                     </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 80, width: '84%' }}>
+                <div style={{ paddingTop: 80 }} className="siderbar1-wrapper">
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                        <div style={{ width: 535, display: 'flex', flexDirection: 'column', height: 400, alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
+                        <div className="siderbar1-content">
                             <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></span>
                             <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 444, justifyContent: 'space-evenly', lineHeight: 1.8 }}>
                                 <span style={{ display: 'flex' }}>

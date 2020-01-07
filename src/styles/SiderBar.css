@@ -19,6 +19,21 @@
   height: 100%;
 }
 
+.siderbar1-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+}
+
+.siderbar1-content {
+  width: 535px;
+  display: flex; 
+  flex-direction: column;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
 
 
 
