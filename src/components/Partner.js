@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { LogoBnb, LogoEbay, LogoStripe, LogoCapital, LogoImb, LogoPrudential, LogoZappos, LogoSales, LogoAmazon } from '../components/ImageSiderBar.js';
-import Arrowxemthem from '../icons/Arrowxemthem.svg';
 import '../styles/SiderBar.css';
+import '../styles/style.css';
+import {SeeEverything} from '../components/About.js';
 
 export default class Partner extends Component {
     render() {
@@ -11,12 +12,10 @@ export default class Partner extends Component {
                     <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>
                         <span style={{ fontFamily: 'Roboto', fontSize: 14, color: '#2C2C2C' }}>ĐỐI TÁC TIN CẬY</span>
                         <span style={{}}>
-                            <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211' }} ><b>XEM TẤT CẢ</b>
-                                <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 5 }} />
-                            </a>
+                            <SeeEverything style={{}} />
                         </span>
                     </div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }} >
                         <LogoBnb style={{}} />
                         <LogoEbay style={{}} />
                         <LogoStripe style={{}} />
@@ -30,9 +29,7 @@ export default class Partner extends Component {
                     <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>
                         <span style={{ fontFamily: 'Roboto', fontSize: 14, color: '#2C2C2C' }}>KHÁCH HÀNG THÂN THIẾT</span>
                         <span style={{}}>
-                            <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211' }} ><b>XEM TẤT CẢ</b>
-                                <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 5 }} />
-                            </a>
+                            <SeeEverything style={{}} />
                         </span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>

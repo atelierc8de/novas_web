@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Arrowxemthem from '../icons/Arrowxemthem.svg';
+import {SeeEverything} from '../components/About.js';
 
 
 const data = [
@@ -29,7 +29,7 @@ export default class SiderBar4 extends Component {
 
         const {data} = this.state
         return (
-            <div style={{paddingBottom: 30}}>
+            <div style={{paddingBottom: 60}}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Tin tức & Sự kiện</b></p>
                 </div>
@@ -45,10 +45,8 @@ export default class SiderBar4 extends Component {
                     </div>
 
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center', paddingTop: 15 }}>
-                    <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} title="xem tat ca" ><b>XEM TẤT CẢ</b>
-                        <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 5 }} />
-                    </a>
+                <div style={{ display: 'flex', justifyContent: 'center', paddingTop: 30 }}>
+                    <SeeEverything style={{}} />
                 </div>
             </div>
         );

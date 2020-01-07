@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Location from '../icons/location.svg';
-import Arrowxemthem from '../icons/Arrowxemthem.svg';
+import {SeeEverything} from '../components/About.js';
 
 
 const data = [
@@ -29,7 +29,7 @@ export default class SiderBar2 extends Component {
     render() {
         const { data } = this.state;
         return (
-            <div>
+            <div style={{paddingBottom: 40}}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Dự án nổi bật</b></p>
                 </div>
@@ -48,10 +48,8 @@ export default class SiderBar2 extends Component {
                     </div>
 
                 </div>
-                <span style={{ display: 'flex', justifyContent: 'center', lineHeight: 3, paddingTop: 15 }}>
-                    <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM TẤT CẢ</b>
-                        <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 5 }} />
-                    </a>
+                <span style={{ display: 'flex', justifyContent: 'center', paddingTop: 30 }}>
+                    <SeeEverything style={{}} />
                 </span>
             </div>
         );

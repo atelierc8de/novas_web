@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { ImageSiderBar1, ImageSiderBar2 } from '../components/ImageSiderBar.js';
 import Checknau from '../icons/checknau.svg';
-import Arrowxemthem from '../icons/Arrowxemthem.svg';
-import About from '../components/About.js';
+import {SeeMore, SeeEverything} from '../components/About.js';
 
 export default class SiderBar1 extends Component {
     render() {
@@ -22,7 +21,7 @@ export default class SiderBar1 extends Component {
                                 <span>Với đội ngũ kỹ thuật năng động, sáng tạo, chúng tôi mong muốn được hợp tác với quý khách và cam kết hai bên cùng có lợi và phát triển…</span>
                             </div>
                             <span>
-                                <About style={{}} />
+                                <SeeMore style={{}} />
                             </span>
                         </div>
                     </div>
@@ -57,9 +56,7 @@ export default class SiderBar1 extends Component {
                                     <span style={{ paddingLeft: 17 }}>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                                 </span>
                             </div>
-                            <a href="http://localhost:3000/" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211', lineHeight: 5 }} ><b>XEM TẤT CẢ</b>
-                                <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 5 }} />
-                            </a>
+                            <SeeEverything style={{}} />
                         </div>
                     </div>
                     <span>

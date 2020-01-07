@@ -26,6 +26,8 @@ import Amazon from '../images/amazon.png';
 import LogoFooter from '../icons/logofooter.svg';
 import FaceBook from '../icons/facebook.svg';
 
+import '../styles/style.css';
+
 
 
 //Gioi thieu, San pham & Dich vu (width: 548, height: 444)
@@ -82,47 +84,47 @@ const ImageSiderBar12 = ({ style={} }) => {
 
 // logo 
 
-const LogoBnb = ({ style={} }) => {
+const LogoBnb = ({ className="partner" }) => {
     return <img src={Bnb} alt="bnb" style={{width: 103, height: 32}} />
 }
 
-const LogoEbay = ({ style={} }) => {
+const LogoEbay = ({ className="partner" }) => {
     return <img src={Ebay} alt="ebay" style={{width: 76, height: 30}} />
 }
 
-const LogoStripe = ({ style={} }) => {
+const LogoStripe = ({ className="partner" }) => {
     return <img src={Stripe} alt="stripe" style={{width: 72, height: 30}} />
 }
 
-const LogoCapital = ({ style={} }) => {
+const LogoCapital = ({ className="partner" }) => {
     return <img src={Capital} alt="capital" style={{width: 104, height: 37}} />
 }
 
-const LogoImb = ({ style={} }) => {
+const LogoImb = ({ className="partner" }) => {
     return <img src={Imb} alt="ibm" style={{width: 69, height: 28}} />
 }
 
-const LogoPrudential = ({ style={} }) => {
+const LogoPrudential = ({ className="partner" }) => {
     return <img src={Prudential} alt="prudential" style={{width: 144, height: 31}} />
 }
 
-const LogoZappos = ({ style={} }) => {
+const LogoZappos = ({ className="partner" }) => {
     return <img src={Zappos} alt="zappos" style={{width: 84, height: 30}} />
 }
 
-const LogoSales = ({ style={} }) => {
+const LogoSales = ({ className="partner" }) => {
     return <img src={Sales} alt="sales" style={{width: 71, height: 50}} />
 }
 
-const LogoKayak = ({ style={} }) => {
+const LogoKayak = ({ className="partner" }) => {
     return <img src={Kayak} alt="kayak" style={{width: 156, height: 30}} />
 }
 
-const LogoBass = ({ style={} }) => {
+const LogoBass = ({ className="partner" }) => {
     return <img src={Bass} alt="bass" style={{width: 50, height: 60}} />
 }
 
-const LogoAmazon = ({ style={} }) => {
+const LogoAmazon = ({ className="partner" }) => {
     return <img src={Amazon} alt="amazon" style={{width: 94, height: 28}} />
 }
 
