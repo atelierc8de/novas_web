@@ -30,7 +30,7 @@ export default class Banner extends Component {
         const {data} = this.state
 
         return (
-            <Slider className="slider-wrapper" style={{}}>
+            <Slider className="slider-wrapper" style={{}} autoplay={3000} >
             {data.slice(0, 3).map((item, index) => (
               <div
                 key={index}
