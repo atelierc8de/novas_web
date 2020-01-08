@@ -1,6 +1,17 @@
-.siderbar1 {
+.siderbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+}
+
+.siderbar {
   width: 548px;
   height: 444px;
+}
+
+.siderbar-container {
+  display: flex;
+  align-items: center;
 }
 
 .siderbar1-image1 {
@@ -19,13 +30,7 @@
   height: 100%;
 }
 
-.siderbar1-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 84%;
-}
-
-.siderbar1-content {
+.siderbar-content {
   width: 535px;
   display: flex; 
   flex-direction: column;
@@ -34,9 +39,32 @@
   justify-content: space-evenly;
 }
 
+/* width screen <= 576px */
+@media (max-width: 575px) {
+  
+}
 
+/* width screen >= 576px -> < 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
 
+/* width screen >= 768px -> < 992px */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
 
+/* width screen >= 992px -> < 1200px */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* width screen >= 1200px */
+@media (min-width: 1200px) {
+
+}
+
+ 
 
 
 
