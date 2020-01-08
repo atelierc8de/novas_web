@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Location from '../icons/location.svg';
 import {SeeEverything} from '../components/About.js';
+import '../styles/siderbar.css'
 
 
 const data = [
@@ -33,10 +34,10 @@ export default class SiderBar2 extends Component {
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Dự án nổi bật</b></p>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
+                <div className="siderbar2-wrapper">
+                    <div className="siderbar2-content">
                         {data.map((item, index) =>
-                            <div style={{ display: 'flex', flexDirection: 'column' }} key={index} >
+                            <div className="siderbar2" key={index} >
                                 <img src={item.image} alt="imagesss" style={{ width: 353, height: 250 }} />
                                 <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 353, lineHeight: 1.3, paddingTop: 12, height: 40 }}>{item.title}</span>
                                 <span style={{ display: 'flex', alignContent: 'center', paddingTop: 10 }}>

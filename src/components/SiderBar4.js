@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {SeeEverything} from '../components/About.js';
+import '../styles/siderbar.css'
 
 
 const data = [
@@ -33,8 +34,8 @@ export default class SiderBar4 extends Component {
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 20 }}>
                     <p style={{ fontFamily: 'Roboto', fontSize: 33, color: '#2C2C2C' }}><b>Tin tức & Sự kiện</b></p>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '84%' }}>
+                <div className="siderbar2-wrapper">
+                    <div className="siderbar2-content">
                         {data.map((item, index) => 
                             <div style={{display: 'flex', flexDirection: 'column'}} key={index} >
                                 <img src={item.image} style={{width: 353 , height: 240}} alt="imagesss" />

@@ -7,13 +7,13 @@ export default class SiderBar1 extends Component {
     render() {
         return (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <div className="siderbar-wrapper">
-                    <div className="siderbar">
+                <div className="siderbar1-wrapper1">
+                    <div className="siderbar1">
                         <div className="siderbar1-image1" />
                     </div>
-                    <div className="siderbar-container">
-                        <div className="siderbar-content">
-                            <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Giới thiệu</b></span>
+                    <div className="siderbar1-container">
+                        <div className="siderbar1-content">
+                            <h1 style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Giới thiệu</b></h1>
                             <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 243, justifyContent: 'space-between', lineHeight: 1.8 }}>
                                 <span>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                                 <span>Các công việc là đào tạo và cung cấp các mô hình dạy học cho các trường đại học, cao đẳng và các doanh nghiệp như: Đại học Bách khoa Đà Nẵng, Cao đẳng Công nghệ, Công ty Xi măng Hải Vân, Công ty Dệt Hòa Thọ…</span>
@@ -25,10 +25,10 @@ export default class SiderBar1 extends Component {
                         </div>
                     </div>
                 </div>
-                <div style={{ paddingTop: 80 }} className="siderbar-wrapper">
-                    <div className="siderbar-container">
-                        <div className="siderbar-content">
-                            <span style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></span>
+                <div className="siderbar1-wrapper2">
+                    <div className="siderbar1-container">
+                        <div className="siderbar1-content">
+                            <h1 style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></h1>
                             <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 444, justifyContent: 'space-evenly', lineHeight: 1.8 }}>
                                 <span style={{ display: 'flex' }}>
                                     <div>
@@ -60,7 +60,7 @@ export default class SiderBar1 extends Component {
                             </span>
                         </div>
                     </div>
-                    <div className="siderbar">
+                    <div className="siderbar1">
                         <div className="siderbar1-image2" />
                     </div>
 
