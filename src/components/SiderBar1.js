@@ -29,7 +29,7 @@ export default class SiderBar1 extends Component {
                     <div className="siderbar1-container">
                         <div className="siderbar1-content">
                             <h1 style={{ fontFamily: 'Roboto', fontSize: 32 }}><b>Sản phẩm & Dịch vụ</b></h1>
-                            <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 444, justifyContent: 'space-evenly', lineHeight: 1.8 }}>
+                            <div style={{ fontFamily: 'Roboto', fontSize: 15, display: 'flex', flexDirection: 'column', height: 243, justifyContent: 'space-between', lineHeight: 1.8 }}>
                                 <span style={{ display: 'flex' }}>
                                     <div>
                                         <img src={Checknau} alt="checknau" style={{ width: 13.9, height: 13.9, paddingTop: 6 }} />
@@ -55,7 +55,7 @@ export default class SiderBar1 extends Component {
                                     <span style={{ paddingLeft: 17 }}>Novas được thành lập, gồm các anh em thành viên đam mê và nhiệt huyết trong lĩnh vực tự động hóa.</span>
                                 </span>
                             </div>
-                            <span>
+                            <span style={{paddingTop: 10}}>
                                 <SeeEverything style={{}} />
                             </span>
                         </div>

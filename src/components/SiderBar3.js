@@ -42,7 +42,7 @@ export default class SiderBar3 extends Component {
                             <div className="siderbar3" key={index} >
                                 <img src={item.image} style={{width: 255 , height: 170}} alt="imagesss" />
                                 <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>{item.title}</span>
-                                <span style={{ display: 'flex', paddingTop: 10 }}>
+                                <span className="siderbar-seemore">
                                     <SeeMore style={{}} />
                                 </span>
                             </div>

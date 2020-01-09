@@ -38,7 +38,7 @@ export default class SiderBar2 extends Component {
                     <div className="siderbar2-content">
                         {data.map((item, index) =>
                             <div className="siderbar2" key={index} >
-                                <img src={item.image} alt="imagesss" style={{ width: 353, height: 250 }} />
+                                <img src={item.image} alt="imagesss" className="siderbar2-image" />
                                 <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 353, lineHeight: 1.3, paddingTop: 12, height: 40 }}>{item.title}</span>
                                 <span style={{ display: 'flex', alignContent: 'center', paddingTop: 10 }}>
                                     <img src={Location} alt="location" style={{ width: 9.1, height: 11.8 }} />

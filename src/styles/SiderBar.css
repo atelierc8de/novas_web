@@ -54,8 +54,7 @@
   justify-content: space-evenly;
 }
 
-/* siderbar2 screen */
-
+/* siderbar2-4 screen */
 .siderbar2-wrapper {
   display: grid;
 }
@@ -71,8 +70,12 @@
   flex-direction: column;
 }
 
-/* siderbar3 screen */
+.siderbar2-image {
+  width: 353px;
+  height: 250px;
+}
 
+/* siderbar3 screen */
 .siderbar3-wrapper {
   display: grid;
 }
@@ -86,6 +89,11 @@
 .siderbar3 {
   display: flex;
   flex-direction: column;
+}
+
+.siderbar-seemore {
+  display: flex;
+  padding-top: 10px;
 }
 
 /* width screen <= 576px */
@@ -115,6 +123,9 @@
     display: flex;
     justify-content: center;
   }
+  .siderbar2-image {
+    padding-top: 20px;
+  }
 
   /* @media screen siderbar3 */
   .siderbar3-wrapper {
@@ -123,6 +134,13 @@
   }
   .siderbar3-content {
     grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+  .siderbar3-content img {
+    padding-top: 20px;
+  }
+
+  .siderbar-seemore {
     justify-content: center;
   }
 }
@@ -153,6 +171,9 @@
     display: flex;
     justify-content: center;
   }
+  .siderbar2-image {
+    padding-top: 20px;
+  }
 
   /* @media screen siderbar3 */
   .siderbar3-wrapper {
@@ -162,6 +183,9 @@
   .siderbar3-content {
     grid-template-columns: repeat(2, auto);
     justify-content: space-evenly;
+  }
+  .siderbar3-content img {
+    padding-top: 20px;
   }
 }
 
@@ -191,6 +215,9 @@
     display: flex;
     justify-content: center;
   }
+  .siderbar2-image {
+    padding-top: 20px;
+  }
 
   /* @media screen siderbar3 */
   .siderbar3-wrapper {
@@ -200,6 +227,9 @@
   .siderbar3-content {
     grid-template-columns: repeat(2, auto);
     justify-content: space-evenly;
+  }
+  .siderbar3-content img {
+    padding-top: 20px;
   }
 }
 
@@ -229,6 +259,9 @@
     display: flex;
     justify-content: center;
   }
+  .siderbar2-image {
+    padding-top: 20px;
+  }
 
   /* @media screen siderbar3 */
   .siderbar3-wrapper {
@@ -238,6 +271,9 @@
   .siderbar3-content {
     grid-template-columns: repeat(3, auto);
     justify-content: space-evenly;
+  }
+  .siderbar3-content img {
+    padding-top: 20px;
   }
 
 }
