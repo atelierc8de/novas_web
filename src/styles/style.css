@@ -93,6 +93,14 @@ button:hover {
   margin: 0 auto;
 }
 
+.slider-wrapper1 {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  max-width: '100%';
+  margin: 0 auto;
+}
+
 .slide {
   height: 550px;
   background-size: cover !important;
@@ -169,7 +177,21 @@ button:hover {
   transform: translate(-50%, -50%);
 }
 
+.slider-content1 .inner1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 57.8%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .slider-content * {
+  pointer-events: none;
+}
+
+.slider-content1 * {
   pointer-events: none;
 }
 
