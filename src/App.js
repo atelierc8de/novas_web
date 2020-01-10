@@ -1,13 +1,7 @@
 import React from 'react';
 import HeaderMenu from '../src/components/HeaderMenu.js';
 import HeaderLogo from '../src/components/HeaderLogo.js';
-import SiderBar1 from '../src/components/SiderBar1.js';
-import Banner from '../src/components/Banner.js';
-import SiderBar2 from '../src/components/SiderBar2.js';
-import '../src/styles/siderbar.css';
-import SiderBar3 from '../src/components/SiderBar3.js';
-import SiderBar4 from '../src/components/SiderBar4.js';
-import Partner from '../src/components/Partner.js';
+import Main from '../src/container/Main.js';
 import Footer from '../src/components/Footer.js';
 
 class App extends React.Component {
@@ -28,25 +22,9 @@ class App extends React.Component {
           </div>
         </header>
 
-        <Banner style={{}} />
+        <Main />
 
-        <div style={{ paddingTop: 80 }}>
-          <SiderBar1 style={{}} />
-          
-          {/* gradient */}
-
-          <div style={{ }} className="gradient" />
-
-          <SiderBar2 style={{}} />
-
-          <SiderBar3 style={{}} />
-
-          <SiderBar4 style={{}} />
-        
-          <Partner style={{}} />
-        </div>
-
-        <footer style={{height: 74, background: '#911212', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <footer style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
           
           <Footer style={{}} />
 

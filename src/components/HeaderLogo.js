@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import LogoTop from '../icons/LogoTop.svg';
+import { Link, Route, Switch } from 'react-router-dom';
 
 export default class HeaderLogo extends Component {
     render(){
         return(
-            <a href="http://localhost:3000/" style={{}}>
+            <Link to="/" style={{}}>
               <img src={LogoTop} alt="LogoTop" style={{width: 131, height: 52}} />
-            </a>
+            </Link>
         );
     }
 }
