@@ -273,6 +273,12 @@ button:hover {
   opacity: 1;
 }
 
+.borderHeight {
+  height: 178px;
+  border: 1px dotted #B5BFC7;
+  width: 0px;
+}
+
 
 /* @media screen */
 
