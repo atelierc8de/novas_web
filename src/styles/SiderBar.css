@@ -170,6 +170,21 @@
   flex-direction: column;
 }
 
+/* certificate screen */
+.certificate {
+  height: 1000px;
+  display: grid;
+  justify-content: space-between;
+  width: 830px;
+}
+
+.certificate-image {
+  display: flex;
+  justify-content: space-between;
+  width: 384px;
+  height: 268px;
+}
+
 
 footer {
   bottom: 0;
@@ -424,6 +439,15 @@ footer {
     padding-top: 40px;
   }
   .solution {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  /* @media screen certificate */
+  .certificate {
+    padding-top: 20px;
+  }
+
+  .certificate {
     grid-template-columns: repeat(2, auto);
   }
 }

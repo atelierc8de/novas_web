@@ -8,7 +8,7 @@ export default class HeaderMenu extends Component {
     render(){
         return(
             <div style={{display: 'flex', justifyContent: 'space-between', flex: 1, fontFamily: 'Roboto', fontSize: 14, height: 18, alignItems: 'center'}}>
-                <NavLink to="/gioi-thieu/lich-su-novas" activeStyle={{color: '#C81211', fontWeight: 600}} className="afterMenu">GIỚI THIỆU</NavLink>
+                <NavLink to="/gioi-thieu" activeStyle={{color: '#C81211', fontWeight: 600}} className="afterMenu">GIỚI THIỆU</NavLink>
                 <NavLink to="/san-pham_dich-vu" activeStyle={{color: '#C81211', fontWeight: 600}} className="afterMenu">SẢN PHẨM VÀ DỊCH VỤ</NavLink>
                 <NavLink to="/du-an" activeStyle={{color: '#C81211', fontWeight: 600}} className="afterMenu" >DỰ ÁN</NavLink>
                 <NavLink to="/giai-phap" activeStyle={{color: '#C81211', fontWeight: 600}} className="afterMenu" >GIẢI PHÁP</NavLink>

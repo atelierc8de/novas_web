@@ -13,7 +13,7 @@ export default class Introduce extends Component {
                         <div style={{display: 'flex', flex: 1, paddingTop: 60}}>
                             <IntroduceMenu style={{}} />
                         </div>
-                        <IntroduceMain style={{}} />
+                        <IntroduceMain {...this.props}/>
                     </div>
                 </div>
                 

@@ -12,7 +12,7 @@ export default class Main extends React.Component {
         return (
             <Switch>
                 <Route exact path="/" component={SiderBarMain} />
-                <Route exact path="/gioi-thieu/lich-su-novas" component={Introduce} />
+                <Route path="/gioi-thieu" component={Introduce} />
                 <Route exact path="/san-pham_dich-vu" component={ProductService} />
                 <Route exact path="/du-an" component={Project} />
                 <Route exact path="/giai-phap" component={Solution} />
