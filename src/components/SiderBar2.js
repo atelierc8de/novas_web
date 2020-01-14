@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Location from '../icons/location.svg';
-import {SeeEverything} from '../components/About.js';
+import {SeeEverythingProject} from '../components/About.js';
 import '../styles/siderbar.css'
 
 
@@ -50,7 +50,7 @@ export default class SiderBar2 extends Component {
 
                 </div>
                 <span style={{ display: 'flex', justifyContent: 'center', paddingTop: 30 }}>
-                    <SeeEverything style={{}} />
+                    <SeeEverythingProject />
                 </span>
             </div>
         );

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {SeeMore} from '../components/About.js';
+import {SeeMoreCertificate} from '../components/About.js';
 import '../styles/siderbar.css';
 
 const data = [
@@ -43,7 +43,7 @@ export default class SiderBar3 extends Component {
                                 <img src={item.image} style={{width: 255 , height: 170}} alt="imagesss" />
                                 <span style={{ fontSize: 15, fontFamily: 'Roboto', color: '#2C2C2C', width: 255, lineHeight: 1.3, height: 40, paddingTop: 12 }}>{item.title}</span>
                                 <span className="siderbar-seemore">
-                                    <SeeMore style={{}} />
+                                    <SeeMoreCertificate />
                                 </span>
                             </div>
                         )}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {SeeEverything} from '../components/About.js';
+import {SeeEverythingDiagram} from '../components/About.js';
 import '../styles/siderbar.css'
 
 
@@ -47,7 +47,7 @@ export default class SiderBar4 extends Component {
 
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center', paddingTop: 30 }}>
-                    <SeeEverything style={{}} />
+                    <SeeEverythingDiagram />
                 </div>
             </div>
         );
