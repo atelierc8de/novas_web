@@ -4,6 +4,13 @@ import IntroduceMenu from '../components/IntroduceMenu.js';
 import IntroduceMain from '../container/IntroduceMain.js';
 
 export default class Introduce extends Component {
+
+    componentDidMount(){
+        window.scrollTo(0,0);
+
+        console.log('scroll');
+    }
+
     render(){
         return(
             <div style={{paddingBottom: 80}}>

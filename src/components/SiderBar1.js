@@ -4,6 +4,7 @@ import {SeeMore, SeeEverything} from '../components/About.js';
 import '../styles/siderbar.css';
 
 export default class SiderBar1 extends Component {
+
     render() {
         return (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
