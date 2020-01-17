@@ -40,5 +40,11 @@ const SeeEverythingPartner = ({className="partner"}) => {
             </NavLink>
 }
 
+const SeeEverythingCustomer = ({className="partner"}) => {
+    return  <NavLink to="/khach-hang" style={{ fontFamily: 'Roboto', textDecoration: 'none', fontSize: 13, color: '#C81211' }} className={className} ><b>XEM TẤT CẢ</b>
+                <img src={Arrowxemthem} alt="arrowxemthem" style={{ width: 5.6, height: 9, paddingLeft: 8 }} />
+            </NavLink>
+}
+
             
-export{SeeMore, SeeEverything, SeeEverythingPartner, SeeEverythingProject, SeeMoreCertificate, SeeEverythingDiagram}
+export{SeeMore, SeeEverything, SeeEverythingPartner, SeeEverythingProject, SeeMoreCertificate, SeeEverythingDiagram, SeeEverythingCustomer}

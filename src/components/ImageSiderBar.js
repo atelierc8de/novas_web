@@ -106,7 +106,27 @@ const LogoImb1 = ({ className="partner" }) => {
 }
 
 const LogoPrudential1 = ({ className="partner" }) => {
-    return <img src={Prudential} alt="prudential" style={{width: 144, height: 31}} />
+    return <img src={Prudential} alt="prudential" style={{width: 200, height: 46}} />
+}
+
+const LogoZappos1 = ({ className="partner" }) => {
+    return <img src={Zappos} alt="zappos" style={{width: 140, height: 50}} />
+}
+
+const LogoSales1 = ({ className="partner" }) => {
+    return <img src={Sales} alt="sales" style={{width: 125, height: 80}} />
+}
+
+const LogoKayak1 = ({ className="partner" }) => {
+    return <img src={Kayak} alt="kayak" style={{width: 209, height: 80}} />
+}
+
+const LogoBass1 = ({ className="partner" }) => {
+    return <img src={Bass} alt="bass" style={{width: 94, height: 100}} />
+}
+
+const LogoAmazon1 = ({ className="partner" }) => {
+    return <img src={Amazon} alt="amazon" style={{width: 162, height: 50}} />
 }
 
 // logo 
@@ -132,7 +152,7 @@ const LogoImb = ({ className="partner" }) => {
 }
 
 const LogoPrudential = ({ className="partner" }) => {
-    return <img src={Prudential} alt="prudential" style={{width: 200, height: 46}} />
+    return <img src={Prudential} alt="prudential" style={{width: 144, height: 31}} />
 }
 
 const LogoZappos = ({ className="partner" }) => {
@@ -198,5 +218,10 @@ export {ImageSiderBar1,
     LogoStripe1,
     LogoCapital1,
     LogoImb1,
-    LogoPrudential1
+    LogoPrudential1,
+    LogoZappos1,
+    LogoSales1,
+    LogoKayak1,
+    LogoBass1,
+    LogoAmazon1
 }

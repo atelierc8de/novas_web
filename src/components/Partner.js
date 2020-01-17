@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { LogoBnb, LogoEbay, LogoStripe, LogoCapital, LogoImb, LogoPrudential, LogoZappos, LogoSales, LogoAmazon } from '../components/ImageSiderBar.js';
 import '../styles/siderbar.css';
 import '../styles/style.css';
-import {SeeEverything, SeeEverythingPartner} from '../components/About.js';
+import {SeeEverythingPartner, SeeEverythingCustomer} from '../components/About.js';
 
 export default class Partner extends Component {
     render() {
@@ -29,7 +29,7 @@ export default class Partner extends Component {
                     <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>
                         <span style={{ fontFamily: 'Roboto', fontSize: 14, color: '#2C2C2C' }}>KHÁCH HÀNG THÂN THIẾT</span>
                         <span style={{}}>
-                            <SeeEverything style={{}} />
+                            <SeeEverythingCustomer style={{}} />
                         </span>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 25 }}>
